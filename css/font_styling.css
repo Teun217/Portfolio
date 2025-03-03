@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica;
+    ;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 1000;
+    text-align: center;
+}
+
+a {
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    a {
+        font-size: 1em;
+    }
+
+}
+
+nav .active_nav {
+    text-decoration: underline;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+nav .active_nav:hover {
+    opacity: 1;
+    cursor: default;
+}

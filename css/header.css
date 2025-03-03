@@ -1,0 +1,13 @@
+h1 {
+    font-size: 5em;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 4em 0;
+    padding: 0 16%;
+}
