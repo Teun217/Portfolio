@@ -1,0 +1,90 @@
+/* ================================
+  ROOT STYLING
+================================== */
+
+:root {
+    --gap_between_images: 0.6em;
+    --space_on_sides: 15%;
+    --rouned_corners: 0.25em;
+    --imgs_hover_state: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --space_on_sides: 1%;
+        --gap_between_images: 0.5em;
+        --rouned_corners: 0.10em;
+    }
+}
+
+/* ================================
+   FONT STYLING
+================================== */
+
+body {
+    font-family: Helvetica;
+    ;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 1000;
+    text-align: center;
+}
+
+a {
+    font-size: 0.8em;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(111, 111, 111);
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    a {
+        font-size: 1em;
+    }
+
+}
+
+/* ================================
+   COLOR
+================================== */
+
+body {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: black;
+}
+
+/* ================================
+    IMG STYLING
+================================== */
+
+img {
+    max-width: 50em;
+}
+
+/* ================================
+    SHAPING
+================================== */
+
+body {
+    padding: 2em var(--space_on_sides);
+}
+
+h1 {
+    margin: 0em 0;
+}

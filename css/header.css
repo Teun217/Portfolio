@@ -1,0 +1,49 @@
+/* Default Navigation List */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0;
+    list-style-type: none;
+    padding: 0 1em;
+}
+
+nav li {
+    text-align: center;
+    margin: auto 1em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(27, 27, 27);
+}
+
+nav .active_nav {
+    text-decoration: underline;
+    cursor: default;
+    pointer-events: none;
+
+}
+
+nav .active_nav:hover {
+    color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        margin: 2em 0;
+    }
+
+    nav li {
+        margin: 0.25em auto;
+        max-width: 10em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+}
