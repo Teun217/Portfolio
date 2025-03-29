@@ -28,7 +28,7 @@ function createImageColumns() {
 
     if (screenWidth >= 1000) {
         numColumns = 3;
-    } else if (screenWidth >= 400) {
+    } else if (screenWidth >= 350) {
         numColumns = 2;
     } else {
         numColumns = 1;
