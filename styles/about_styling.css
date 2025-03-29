@@ -54,3 +54,7 @@ p {
     }
 
 }
+
+* {
+    background-color: red;
+}
