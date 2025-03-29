@@ -1,6 +1,7 @@
-main section {
+main section:first-child {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 main section section {
