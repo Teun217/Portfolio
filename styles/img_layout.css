@@ -125,3 +125,9 @@
         /* Centers remaining columns */
     }
 }
+
+@media (max-width: 768px) {
+    .image_text {
+        display: none !important;
+    }
+}
